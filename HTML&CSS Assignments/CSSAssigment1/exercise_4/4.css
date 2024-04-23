@@ -1,0 +1,39 @@
+#main {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  /* height: 400px; */
+  row-gap: 10px;
+  justify-content: center;
+}
+.cells {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  padding: 0 2em 2em;
+}
+.cell {
+  flex-grow: 1;
+  background-color: white;
+  padding: 15px;
+}
+.title {
+  padding: 2em;
+}
+.red {
+  background-color: #ffb3ba;
+}
+.green {
+  background-color: #bbffc9;
+}
+.yellow {
+  background-color: #ffffb9;
+
+  flex-grow: 1;
+}
+.orange {
+  background-color: #ffdfba;
+}
+.blue {
+  background-color: skyblue;
+}

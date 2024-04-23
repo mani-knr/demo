@@ -1,0 +1,22 @@
+table {
+  border: 1px solid;
+  padding: 2px;
+  border-spacing: 2px;
+  background-color: #f8f9fa;
+}
+td,
+th {
+  border: 1px solid;
+  padding: 5px 10px;
+}
+.align {
+  text-align: center;
+}
+button {
+  padding: 10px 5px;
+  width: 90px;
+}
+#head {
+  color: #008cfe;
+  font-size: 25px;
+}

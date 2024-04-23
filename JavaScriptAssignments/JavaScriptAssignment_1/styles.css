@@ -1,0 +1,43 @@
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.required::after {
+  content: "*";
+  color: red;
+  font-weight: bold;
+}
+.form-control {
+  margin: 20px;
+}
+#reset {
+  display: none;
+}
+label {
+  font-size: large;
+  font-weight: 600;
+}
+.bottom {
+  margin-top: 20px;
+}
+body {
+  background-color: #f0f3f4;
+}
+.main {
+  background-color: white;
+  padding: 50px;
+  margin-top: 50px;
+  width: fit-content;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 10px;
+}
+.form-check {
+  padding: 30px;
+}
+@media screen and (max-width: 600px) {
+  .container,
+  .form-check {
+    width: 100%;
+    padding: 20px;
+  }
+}

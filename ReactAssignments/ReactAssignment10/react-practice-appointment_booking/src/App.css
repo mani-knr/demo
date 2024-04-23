@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Alkatra:wght@400;500;600;700&display=swap");
+.main-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+body {
+	background-color: rgb(238, 234, 234);
+}
+.Consult {
+	background-color: rgb(64, 163, 64);
+	padding: 5px;
+	color: white;
+	border: none;
+	font-size: 1rem;
+	width: 4rem;
+	border-radius: 5px;
+}
+.Visit {
+	background-color: #ff0000;
+	padding: 5px;
+	color: white;
+	border: none;
+	font-size: 1rem;
+	width: 4rem;
+	border-radius: 5px;
+}
+
+.down-container {
+	width: 70%;
+}
+* {
+	box-sizing: border-box;
+	font-family: "Alkatra", cursive;
+}
+.appointments-template {
+	align-items: center;
+	background-color: white;
+	border: 1px solid;
+
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 1rem;
+	overflow-x: scroll;
+}
+td {
+	text-align: center;
+}
+.patient-cell {
+	gap: 5px;
+	display: flex;
+	text-align: left;
+}
+
+.container {
+	margin-top: 30px;
+	width: 80%;
+	padding: 0 2rem;
+	border-radius: 20px;
+}
+.gridhead {
+	font-weight: bolder;
+	font-size: 1.5rem;
+	background: rgb(63, 94, 251);
+	color: white;
+	background: radial-gradient(
+		circle,
+		rgba(63, 94, 251, 1) 0%,
+		rgba(252, 70, 107, 1) 100%
+	);
+}
+
+.form-head {
+	text-align: center;
+	font-size: 2rem;
+	font-weight: bolder;
+	background: rgb(63, 94, 251);
+	color: white;
+	background: radial-gradient(
+		circle,
+		rgba(63, 94, 251, 1) 0%,
+		rgba(252, 70, 107, 1) 100%
+	);
+}
+form {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background-color: white;
+	gap: 0.5rem;
+}
+.parent {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 2rem 0;
+	border-radius: 20px;
+	justify-content: center;
+	gap: 1rem;
+}
+.child {
+	width: 31%;
+	text-align: center;
+}
+::placeholder {
+	font-weight: bolder;
+	color: rgb(45, 45, 45);
+}
+input,
+select {
+	padding: 5px;
+	width: 100%;
+	border-radius: 20px;
+	border: 2px solid;
+	border-style: ridge;
+}
+
+.submit {
+	background-color: #0d97ed;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 20px;
+	color: white;
+	font-weight: bolder;
+}
+img {
+	width: 50px;
+	height: 50px;
+}
+.img-container {
+	padding: 5px;
+	border-radius: 100%;
+}
+.options {
+	font-size: 20px;
+	height: 100%;
+}
+
+.divider {
+	margin: 30px 0;
+	border: 1px solid rgb(202, 202, 202);
+	width: 80%;
+}
+.patname-cell {
+	font-size: 20px;
+	font-weight: 500;
+}
+.age-gender {
+	/* style={{ fontSize: "15px", color: "gray", fontWeight: "bolder" }} */
+	font-size: 15px;
+	color: gray;
+	font-weight: bolder;
+}
+.time {
+	/* style={{ fontSize: "15px", fontWeight: "bolder" }} */
+	font-size: 15px;
+	font-weight: bolder;
+}

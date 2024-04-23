@@ -1,0 +1,19 @@
+#left {
+  text-align: left;
+}
+#right {
+  text-align: right;
+}
+#center {
+  text-align: center;
+}
+#justify {
+  text-align: justify;
+}
+div {
+  margin-top: 20px;
+}
+h1 {
+  text-align: center;
+  color: rgb(106, 106, 205);
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" id="style" href="./lightstyles.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section>
+      <main>
+        <form action="">
+          <div id="title">Sign in</div>
+          <div class="text description">
+            Sign in and start managing your candidates!
+          </div>
+          <div>
+            <input type="text" placeholder="Login" class="field login" />
+          </div>
+          <div>
+            <input
+              type="password"
+              placeholder="Password"
+              class="field password"
+            />
+          </div>
+          <div id="flex-container" class="forgot">
+            <div style="display: flex; gap: 7px">
+              <input type="checkbox" id="remme" /><label
+                for="remme"
+                class="text"
+                >Remember me</label
+              >
+            </div>
+            <div><a href="" id="forgot">Forgot password?</a></div>
+          </div>
+          <div><button class="field login">Login</button></div>
+        </form>
+      </main>
+      <div id="footer">
+        <img id="foot" src="./assets/light.svg" alt="" />
+        <button>
+          <img id="toggle-btn" src=".././assets/Dark Mode.svg" alt="" />
+        </button>
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>

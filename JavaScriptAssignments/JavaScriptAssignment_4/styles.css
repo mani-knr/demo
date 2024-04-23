@@ -1,0 +1,19 @@
+div {
+  border: 1px solid;
+  display: flex;
+  justify-content: space-around;
+}
+.heading {
+  font-size: 40px !important;
+  font-weight: 700;
+}
+.heading span {
+  padding: 20px;
+}
+div {
+  font-size: 20px;
+}
+span {
+  width: 300px;
+  font-size: 30px;
+}

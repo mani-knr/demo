@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.i1 {
+  width: 100px;
+}
+.i2 {
+  width: 200px;
+}
+.i3 {
+  width: 130px;
+}
+.i4 {
+  width: 180px;
+}
+.i5 {
+  width: 1700px;
+}
+.i6 {
+  width: 80px;
+}
+.i7 {
+  width: 380px;
+}
+.i8 {
+  width: 100px;
+}
+.i9 {
+  width: 220px;
+}
+
+@media screen and (max-width: 400px) {
+  .images {
+    width: 50%;
+  }
+  .img-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1opx;
+  }
+}

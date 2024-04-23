@@ -1,0 +1,30 @@
+.cell {
+  width: fit-content;
+  padding: 15px;
+  background-color: aliceblue;
+  margin: 10px;
+}
+.block {
+  padding: 20px;
+  background-color: yellow;
+}
+main {
+  display: flex;
+  gap: 20px;
+}
+.red {
+  background-color: #ffb3ba;
+}
+.blue {
+  background-color: #b8dffc;
+}
+.green {
+  background-color: #bbffc9;
+}
+.yellow {
+  background-color: #ffffb9;
+}
+.orange {
+  background-color: #ffdfba;
+  width: 10em;
+}

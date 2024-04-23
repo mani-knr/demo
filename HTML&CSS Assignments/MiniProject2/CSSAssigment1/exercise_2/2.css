@@ -1,0 +1,60 @@
+#top {
+  background-color: #ffffb9;
+  padding: 3% 2%;
+  flex-grow: 1;
+}
+#bottom {
+  height: 70%;
+}
+.cells {
+  display: flex;
+  gap: 4%;
+  padding: 20px;
+}
+#special {
+  flex-grow: 2.5;
+}
+.cell {
+  flex-grow: 1;
+  background-color: white;
+  padding: 2%;
+}
+#main {
+  width: 45em;
+  height: 40em;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1em;
+}
+#bottom {
+  display: flex;
+  gap: 5%;
+  flex-grow: 3;
+}
+.child {
+  flex-grow: 1;
+  padding: 4% 2%;
+}
+#left {
+  flex-grow: 0.7;
+  background-color: #b8dffc;
+}
+#right {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 3;
+  gap: 2em;
+}
+.blue {
+}
+.red {
+  background-color: #ffb3ba;
+  flex-grow: 0;
+}
+.green {
+  background-color: #bbffc9;
+}
+
+.orange {
+  background-color: #ffdfba;
+}

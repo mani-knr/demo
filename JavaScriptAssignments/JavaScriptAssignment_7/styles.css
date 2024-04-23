@@ -1,0 +1,115 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: black;
+  padding: 20px 10px;
+  /* width: 100%; */
+}
+#exampleModalLabel {
+  color: black;
+}
+h1 {
+  font-size: 40px;
+  color: white;
+}
+#note {
+  color: red;
+  font-size: 25px;
+}
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #4c4c4c;
+}
+i {
+  font-size: 35px;
+}
+#reset {
+  display: none;
+}
+#adduser,
+#viewusers,
+#btn {
+  background-color: gray;
+  color: white;
+  text-align: center;
+  font-size: 25px;
+  padding: 10px;
+  border-radius: 10px;
+}
+#adduser:hover,
+#viewusers:hover,
+button i:hover {
+  color: black;
+  background-color: white;
+}
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  color: white;
+}
+.form input {
+  border-radius: 10px;
+  background-color: white;
+}
+label {
+  width: 80px;
+  font-size: 30px;
+}
+#head {
+  font-size: 50px;
+  font-weight: 900;
+  color: white;
+}
+* {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+span {
+  background-color: white;
+}
+form {
+  display: none;
+}
+.save {
+  display: none;
+}
+#heading input,
+#heading span {
+  padding: 20px 0;
+  font-size: 30px;
+  font-weight: 800;
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+}
+input {
+  font-size: 30px;
+  width: 300px;
+  background-color: white;
+  text-align: center;
+  padding: 5px 0;
+}
+#show div {
+  display: flex;
+}
+#show span {
+  width: 150px;
+  border: 1px solid;
+  display: flex;
+  justify-content: space-around;
+}
+#show button {
+  padding: 0;
+  border: 0;
+  font-size: 35px;
+  background-color: white;
+}
+button:hover {
+  cursor: pointer;
+}
+#launchModal {
+  display: none;
+}

@@ -1,0 +1,34 @@
+thead td {
+  background-color: #de8703;
+  color: #d3d126;
+  padding: 10px;
+}
+table {
+  background-color: #232536;
+  padding: 0;
+  border-collapse: collapse;
+}
+.label {
+  color: #d3d126;
+  text-align: end;
+}
+tfoot td {
+  background-color: #de8703;
+  text-align: end;
+  padding: 10px;
+}
+tbody td {
+  padding: 10px 30px;
+}
+button {
+  padding: 10px 20px;
+  border: 0;
+}
+#submit {
+  background-color: #63af5e;
+  color: white;
+}
+#cancel {
+  background-color: #d9544f;
+  color: white;
+}

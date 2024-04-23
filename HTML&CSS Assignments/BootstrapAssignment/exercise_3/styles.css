@@ -1,0 +1,51 @@
+img {
+  width: 150px;
+}
+.main {
+  color: white;
+  background-color: #4d48d8;
+}
+body {
+  background-color: #f0f0f1;
+}
+
+.tab {
+  color: black;
+  border: none !important;
+  background-color: #f0f0f1 !important;
+}
+.tab:active,
+.tab:focus {
+  border-bottom: 2px solid #518bb4 !important;
+  color: #518bb4 !important;
+  background-color: #f0f0f1 !important;
+}
+#nav-tab {
+  border-bottom: 1px #e8e8e9 solid;
+}
+.col-lg-4 {
+  padding: 10px;
+}
+.card {
+  border-radius: 0;
+  padding: 10px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.btn-primary {
+  border-radius: 3px;
+  padding: 5px 20px;
+  background-color: #0676ab;
+}
+
+#nav-profile {
+  margin-top: 30px;
+}
+.bi {
+  font-size: 20px;
+}
+.nav-link {
+  font-weight: bold;
+}
+.nav-link:hover {
+  color: #518bb4 !important;
+}

@@ -1,0 +1,119 @@
+* {
+  font-family: "Lexend Deca", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: #e5e5e5;
+}
+section {
+  display: flex;
+  flex-direction: column;
+}
+#remme {
+  accent-color: #224957;
+  border-radius: 5px;
+}
+form {
+  margin-top: 7%;
+  margin-left: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#title {
+  font-weight: 400;
+  font-size: 64px;
+  color: #224957;
+}
+.text {
+  font-weight: 400;
+  font-size: 14px;
+  color: #224957;
+}
+.text1,
+#forgot {
+  color: #20df7f !important;
+  font-weight: 500;
+  font-size: 14px;
+  text-decoration: none;
+}
+#flex-container {
+  display: flex;
+  align-items: center;
+  width: 300px;
+  justify-content: space-between;
+}
+.field {
+  width: 300px;
+  height: 45px;
+  border-radius: 10px;
+}
+input {
+  background-color: #224957;
+  outline: none;
+  border: 0;
+  /* padding: 0 14px; */
+}
+button {
+  background-color: #20df7f;
+  font-size: 16px;
+  border: 0;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+}
+#footer {
+  position: absolute;
+  width: 100%;
+  height: 111px;
+  left: 0;
+  bottom: 0;
+}
+::placeholder {
+  font-weight: 400;
+  font-size: 14px;
+  color: white;
+}
+#toggle-btn {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  top: 21px;
+  left: 36px;
+}
+.description {
+  margin-top: 39px;
+  width: 347px;
+  height: 20px;
+  font-weight: 400;
+  font-size: 16px;
+}
+.login {
+  margin-top: 36px;
+}
+.password {
+  margin-top: 32px;
+}
+.forgot {
+  margin-top: 23px;
+}
+.login {
+  margin-top: 24px;
+}
+#forgot:visited {
+  color: black;
+}
+input[type="text"],
+input[type="password"] {
+  border: 0;
+  background-color: #224957;
+  padding-left: 14px;
+  width: 285px;
+}
+input[type="text"]:focus,
+input[type="password"]:focus {
+  color: white;
+  outline: 0;
+}
+#foot {
+  width: 100%;
+}

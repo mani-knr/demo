@@ -1,0 +1,19 @@
+body {
+  background-color: #d9f4bb;
+}
+main {
+  padding-top: 30px;
+}
+section {
+  text-align: justify;
+}
+a {
+  text-decoration: none;
+  padding: 5px;
+}
+header {
+  top: 0;
+  position: fixed;
+  background-color: #368620;
+  width: 100%;
+}
